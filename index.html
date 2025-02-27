@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and font */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e8f5e9; /* Light green background */
+            color: #2e7d32; /* Dark green text */
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: #388e3c; /* Dark green header */
+            color: white;
+            padding: 10px 0;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+            color: #a5d6a7; /* Light green hover color */
+        }
+
+        /* Sections */
+        section {
+            padding: 50px 20px;
+        }
+
+        section h1, section h2, section h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* About Section */
+        #about {
+            background-color: #ffffff; /* White background */
+            text-align: center;
+        }
+
+        /* Skills Section */
+        #skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #skills ul li {
+            margin: 10px 20px;
+            background-color: #c8e6c9; /* Light green skill background */
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* Projects Section */
+        #projects .project {
+            margin-bottom: 20px;
+            background-color: #ffffff; /* White background */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #projects .project a {
+            color: #388e3c; /* Dark green link color */
+            text-decoration: none;
+        }
+
+        #projects .project a:hover {
+            text-decoration: underline;
+            color: #66bb6a; /* Light green hover color */
+        }
+
+        /* Experience Section */
+        #experience .experience-item {
+            margin-bottom: 20px;
+            background-color: #ffffff; /* White background */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Contact Section */
+        #contact {
+            background-color: #ffffff; /* White background */
+            text-align: center;
+        }
+
+        #contact ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #contact ul li {
+            margin: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #388e3c; /* Dark green footer */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h1>About Me</h1>
+            <img src="jhon.jpeg" alt="Junrey Obligado" style="width: 200px; height: auto; border-radius: 50%; margin-bottom: 20px;">
+            <p>Hi! I'm Junrey Obligado, a passionate Information Technology student dedicated to developing technical skills in software development, networking, and cybersecurity. I have a strong interest in problem-solving and innovation.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Portfolio</h3>
+                <p>Showcasing my passion for blending aesthetics with functionality.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Attendance Monitoring System</h3>
+                <p>A system that monitors and tracks the in and out of students.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3: Business Dashboard</h3>
+                <p>A Business Dashboard that delivers real-time insights and data visualization, enabling businesses to track key metrics and make data-driven decisions effortlessly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Junior Web Developer - Freelance</h3>
+                <p>Designed and developed responsive websites for local businesses, using HTML, CSS, and JavaScript. Worked closely with clients to understand their needs and translate them into functional and aesthetically pleasing websites. Managed client communications, ensured that websites were SEO optimized, and integrated third-party APIs for additional functionality.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/share/1BjPEQ4iWZ/?mibextid=LQQJ4d" target="_blank">FB Page</a></li>
+                <li><a href="https://github.com/burod918/junreyport.git" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Junrey Obligado. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
